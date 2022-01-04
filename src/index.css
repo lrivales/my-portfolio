@@ -8,16 +8,44 @@
 
 .bg-custom-primary{
   background-color: var(--primary);
-  color: var(--tertiary);
 }
 
 .bg-custom-secondary{
   background-color: var(--secondary);
+}
+
+.bg-custom-tertiary{
+  background-color: var(--tertiary);
+}
+
+.bg-custom-quaternary{
+  background-color: var(--quaternary);
+}
+
+.bg-custom-quinary{
+  background-color: var(--quinary);
+}
+
+.text-custom-primary{
+  color: var(--primary);
+}
+
+.text-custom-secondary{
+  color: var(--secondary);
+}
+.text-custom-tertiary{
+  color: var(--tertiary);
+}
+.text-custom-quaternary{
   color: var(--quaternary);
 }
 
-.text-custom{
-  color: var(--tertiary);
+.text-custom-quinary{
+  color: var(--quinary);
+}
+
+.custom-padding{
+  padding: 20px;
 }
 
 body {

@@ -6,14 +6,13 @@ function App() {
 
   return (
     <div>
-      <div className="hero bg-custom-primary">
+      <div className="hero bg-custom-quaternary text-light">
         <div className="hero-body">
           <h1>Lawrence Rivales</h1>
-          <p>Welcome to my portfolio.</p>
+          <Navbar />
         </div>
       </div>
-      <div className="bg-custom-secondary">
-        <Navbar />
+      <div>
         <Outlet />
       </div>
     </div>
