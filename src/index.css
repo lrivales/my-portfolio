@@ -11,6 +11,11 @@
   color: var(--tertiary);
 }
 
+.bg-custom-secondary{
+  background-color: var(--secondary);
+  color: var(--quaternary);
+}
+
 .text-custom{
   color: var(--tertiary);
 }
