@@ -1,11 +1,6 @@
-// import logo from './logo.svg';
-// import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
@@ -19,10 +14,7 @@ function App() {
       </div>
       <div className="bg-custom-secondary">
         <Navbar />
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
+        <Outlet />
       </div>
     </div>
   );

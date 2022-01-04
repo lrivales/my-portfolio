@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -9,10 +10,10 @@ function Navbar() {
             </section>
             <section className="navbar-section">
                 <div className="input-group input-inline">
-                    <a href="#about" className="btn btn-link">About Me</a>
-                    <a href="#portfolio" className="btn btn-link">Portfolio</a>
-                    <a href="#contact" className="btn btn-link">Contact</a>
-                    <a href="#resume" className="btn btn-link">Resume</a>
+                    <Link to="/about" className="btn btn-link">About Me</Link>
+                    <Link to="portfolio" className="btn btn-link">Portfolio</Link>
+                    <Link to="contact" className="btn btn-link">Contact</Link>
+                    <Link to="resume" className="btn btn-link">Resume</Link>
                 </div>
             </section>
         </header>
