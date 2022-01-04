@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './spectre-exp.css';
+import './spectre-icons.css';
+import './spectre.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
