@@ -10,10 +10,10 @@ function Navbar() {
             </section>
             <section className="navbar-section">
                 <div className="input-group input-inline">
-                    <Link to="/about" className="btn btn-link text-light">About Me</Link>
-                    <Link to="portfolio" className="btn btn-link text-light">Portfolio</Link>
-                    <Link to="contact" className="btn btn-link text-light">Contact</Link>
-                    <Link to="resume" className="btn btn-link text-light">Resume</Link>
+                    <Link to="/about" className="btn btn-link text-light">about me</Link>
+                    <Link to="portfolio" className="btn btn-link text-light">portfolio</Link>
+                    <Link to="contact" className="btn btn-link text-light">contact</Link>
+                    <Link to="resume" className="btn btn-link text-light">resume</Link>
                 </div>
             </section>
         </header>

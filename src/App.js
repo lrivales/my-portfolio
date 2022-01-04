@@ -8,7 +8,7 @@ function App() {
     <div>
       <div className="hero bg-custom-quaternary text-light">
         <div className="hero-body">
-          <h1>Lawrence Rivales</h1>
+          <h1>lawrence rivales</h1>
           <Navbar />
         </div>
       </div>
