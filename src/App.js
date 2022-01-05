@@ -22,6 +22,8 @@ function App() {
           <a href='https://github.com/lrivales' target='_blank' className='text-light'>github</a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href='https://www.linkedin.com/in/lawrencerivales' target='_blank' className='text-light'>linkedin</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='https://www.facebook.com/lrivales' target='_blank' className='text-light'>facebook</a>
         </div>
       </div>
     </div>
