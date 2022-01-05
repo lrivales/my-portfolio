@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.c5c9412b.css",
+    "main.js": "/my-portfolio/static/js/main.49a72e1b.js",
+    "static/js/787.69d52779.chunk.js": "/my-portfolio/static/js/787.69d52779.chunk.js",
+    "static/media/food-festival.png": "/my-portfolio/static/media/food-festival.ccc8b30908fac6b147fa.png",
+    "static/media/zookeepr.png": "/my-portfolio/static/media/zookeepr.cd17a3792cc592646e46.png",
+    "static/media/budget-tracker.png": "/my-portfolio/static/media/budget-tracker.9159a560f6cd94da2552.png",
+    "static/media/my-portfolio.png": "/my-portfolio/static/media/my-portfolio.320d23db7d0c5f8e3d3b.png",
+    "static/media/app-toolkit.png": "/my-portfolio/static/media/app-toolkit.d3fbce6ee8a454b230b7.png",
+    "static/media/note-taker.png": "/my-portfolio/static/media/note-taker.89a3b64b0619060fb913.png",
+    "static/media/contactless-menu.png": "/my-portfolio/static/media/contactless-menu.da3d0ff0d74bec5eaf94.png",
+    "static/media/resume.docx": "/my-portfolio/static/media/resume.4224a614290db0c1ffd9.docx",
+    "index.html": "/my-portfolio/index.html",
+    "main.c5c9412b.css.map": "/my-portfolio/static/css/main.c5c9412b.css.map",
+    "main.49a72e1b.js.map": "/my-portfolio/static/js/main.49a72e1b.js.map",
+    "787.69d52779.chunk.js.map": "/my-portfolio/static/js/787.69d52779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c9412b.css",
+    "static/js/main.49a72e1b.js"
+  ]
+}
