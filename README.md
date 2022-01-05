@@ -14,7 +14,9 @@ contains a form for sending me a message (still a work in progress).
 ## resume
 contains a link to download my resume.  it also showcases my front-end and back-end skills.
 
-## link
+## links
+- github: https://github.com/lrivales/my-portfolio
+- app: https://lrivales.github.io/my-portfolio/
 
 ## snapshot
 ![my-portfolio](src/img/my-portfolio.png)
