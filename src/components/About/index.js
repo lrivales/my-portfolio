@@ -11,6 +11,9 @@ function About() {
                 i am a senior consultant specializing in end-to-end application monitoring with current certifications for appdynamics and splunk.
                 <br />
                 <br />
+                i am a project team lead for a large federal customer for almost a decade.
+                <br />
+                <br />
                 i am a beginner full stack developer.
                 <br />
                 <br />
