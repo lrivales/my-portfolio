@@ -6,37 +6,43 @@ function Portfolio() {
             img: 'app-toolkit.png',
             name: 'app toolkit',
             description: 'this is an application for a personal dashboard/homepage. it is a collection of lite apps for finding out information like weather, music, news, etc.',
-            url: 'https://lrivales.github.io/app-toolkit/'
+            url: 'https://lrivales.github.io/app-toolkit/',
+            github: 'https://github.com/lrivales/app-toolkit'
         },
         {
             img: 'contactless-menu.png',
             name: 'contactless menu',
             description: 'this is an application for restaurants that can be used by their customer for contactless ordering.',
-            url: 'https://polar-earth-23819.herokuapp.com/'
+            url: 'https://polar-earth-23819.herokuapp.com/',
+            github: 'https://github.com/lrivales/contactless-menu'
         },
         {
             img: 'note-taker.png',
             name: 'note taker',
             description: 'this is a basic note taking application. it uses express.js and json for data storage and retrieval.',
-            url: 'https://murmuring-sea-88897.herokuapp.com'
+            url: 'https://murmuring-sea-88897.herokuapp.com',
+            github: 'https://github.com/lrivales/note-taker'
         },
         {
             img: 'budget-tracker.png',
             name: 'budget tracker',
             description: 'this is a basic budget tracking application. it also displays a basic line graph to visualize your money over time.',
-            url: 'https://whispering-ocean-33517.herokuapp.com'
+            url: 'https://whispering-ocean-33517.herokuapp.com',
+            github: 'https://github.com/lrivales/budget-tracker'
         },
         {
             img: 'food-festival.png',
             name: 'food festival',
             description: 'this is a basic app for a food festival.  it can be modified for any type of festival.',
-            url: 'https://lrivales.github.io/food-festival/'
+            url: 'https://lrivales.github.io/food-festival/',
+            github: 'https://github.com/lrivales/food-festival'
         },
         {
             img: 'zookeepr.png',
             name: 'zookeepr',
             description: 'this is an app for managing zoo animals and their keepers.',
-            url: 'https://infinite-headland-85038.herokuapp.com'
+            url: 'https://infinite-headland-85038.herokuapp.com',
+            github: 'https://github.com/lrivales/zookeepr'
         }
     ]);
 
@@ -59,6 +65,10 @@ function Portfolio() {
                                 <div className="card-footer">
                                     <button className="btn btn-primary" onClick={() => window.open(`${project.url}`, "_blank")}>
                                         <i className="icon icon-forward"></i>
+                                    </button>
+                                    &nbsp;&nbsp;
+                                    <button className="btn btn-primary" onClick={() => window.open(`${project.github}`, "_blank")}>
+                                        <i className="icon icon-link"></i>
                                     </button>
                                 </div>
                             </div>
