@@ -13,6 +13,9 @@ function Contact() {
                 <input className="form-input" type="text" id="email" placeholder="email" />
                 <label className="form-label" htmlFor="message">message</label>
                 <textarea className="form-input" id="message" placeholder="message" rows="3"></textarea>
+                <br />
+                <br />
+                <br />
             </div>
         </div>
     )

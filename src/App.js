@@ -6,14 +6,23 @@ function App() {
 
   return (
     <div>
-      <div className="hero bg-custom-quaternary text-light">
+      <div className="hero hero-sm bg-custom-quaternary text-light">
         <div className="hero-body">
+          <br />
           <h1>lawrence rivales</h1>
-          <Navbar />
         </div>
+        <Navbar />
       </div>
       <div>
         <Outlet />
+      </div>
+      <div className="hero hero-sm bg-custom-primary text-light footer">
+        <div className="hero-body text-center">
+          {/* <h4 className='text-center'>github&nbsp;&nbsp;&nbsp;&nbsp;linkedin</h4> */}
+          <a href='https://github.com/lrivales' target='_blank' className='text-light'>github</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='https://www.linkedin.com/in/lawrencerivales' target='_blank' className='text-light'>linkedin</a>
+        </div>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ function Resume() {
         <div id="resume" className="container">
             <div className="columns">
                 <div className="column col-6">
-                    <h1 className="text-right text-custom-quaternary">front-end proficiencies</h1>
+                    <h1 className="text-right text-custom-quaternary">front-end skills</h1>
                     {frontEndSkills.map((skill) => {
                         return(
                             <h2 className="text-right text-custom-primary" key={skill}>{skill}</h2> 
@@ -17,7 +17,7 @@ function Resume() {
                     })}
                 </div>
                 <div className="column col-6">
-                    <h1 className="text-right text-custom-quaternary">back-end proficiencies</h1>
+                    <h1 className="text-right text-custom-quaternary">back-end skills</h1>
                     {backEndSkills.map((skill) => {
                         return(
                             <h2 className="text-right text-custom-primary" key={skill}>{skill}</h2> 
@@ -25,6 +25,8 @@ function Resume() {
                     })}
                 </div>
             </div>
+            <br />
+            <br />
         </div>
     )
 }

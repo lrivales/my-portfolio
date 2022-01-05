@@ -5,42 +5,42 @@ function Portfolio() {
         {
             img: 'app-toolkit.png',
             name: 'app toolkit',
-            description: 'this is an application for a personal dashboard/homepage. it is a collection of lite apps for finding out information like weather, music, news, etc.',
+            description: 'this is a collection of lite apps like a swiss army knife for the web.',
             url: 'https://lrivales.github.io/app-toolkit/',
             github: 'https://github.com/lrivales/app-toolkit'
         },
         {
             img: 'contactless-menu.png',
             name: 'contactless menu',
-            description: 'this is an application for restaurants that can be used by their customer for contactless ordering.',
+            description: 'this is an app for dine-in contactless ordering.',
             url: 'https://polar-earth-23819.herokuapp.com/',
             github: 'https://github.com/lrivales/contactless-menu'
         },
         {
             img: 'note-taker.png',
             name: 'note taker',
-            description: 'this is a basic note taking application. it uses express.js and json for data storage and retrieval.',
+            description: 'this is a basic note taking application.',
             url: 'https://murmuring-sea-88897.herokuapp.com',
             github: 'https://github.com/lrivales/note-taker'
         },
         {
             img: 'budget-tracker.png',
             name: 'budget tracker',
-            description: 'this is a basic budget tracking application. it also displays a basic line graph to visualize your money over time.',
+            description: 'this is a basic budget tracking application with a line graph for visualizing trends.',
             url: 'https://whispering-ocean-33517.herokuapp.com',
             github: 'https://github.com/lrivales/budget-tracker'
         },
         {
             img: 'food-festival.png',
             name: 'food festival',
-            description: 'this is a basic app for a food festival.  it can be modified for any type of festival.',
+            description: 'this is a basic app for a food festival with an events schedule and ticket purchases.',
             url: 'https://lrivales.github.io/food-festival/',
             github: 'https://github.com/lrivales/food-festival'
         },
         {
             img: 'zookeepr.png',
             name: 'zookeepr',
-            description: 'this is an app for managing zoo animals and their keepers.',
+            description: 'this is an app for managing zoo animals and their keepers.  it can be modified for others.',
             url: 'https://infinite-headland-85038.herokuapp.com',
             github: 'https://github.com/lrivales/zookeepr'
         }

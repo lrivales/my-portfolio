@@ -18,9 +18,6 @@ function About() {
                 <br />
                 <br />
                 i enjoy spending time with my family, cycling, and playing guitar.
-                <br />
-                <br />
-                i am based in the dc metro area.
             </h2>
         </div>
     )
