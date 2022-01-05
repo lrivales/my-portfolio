@@ -4,7 +4,8 @@ function About() {
     return(
         <div id="about" className="text-right custom-padding">
             <h1 className="text-custom-quaternary">
-                about me
+                <div className="avatar" data-initial="lr" />
+                &nbsp;&nbsp;about me
             </h1>
             <h2 className="text-custom-primary">
                 i am a senior consultant specializing in end-to-end application monitoring with current certifications for appdynamics and splunk.
