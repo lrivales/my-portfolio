@@ -4,7 +4,7 @@ function About() {
     return(
         <div id="about" className="text-right custom-padding">
             <h1 className="text-custom-quaternary">
-                <div className="avatar" data-initial="lr" />
+                <div className="avatar" data-initial="LR" />
                 &nbsp;&nbsp;about me
             </h1>
             <h2 className="text-custom-primary">

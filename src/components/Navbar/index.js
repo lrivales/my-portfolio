@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <header className="navbar">
             <section className="navbar-section">
-                {/* Used for spacing only */}
+                {/* used for spacing only */}
             </section>
             <section className="navbar-section">
                 <div className="input-group input-inline">

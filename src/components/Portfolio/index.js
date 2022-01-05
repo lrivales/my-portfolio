@@ -47,7 +47,7 @@ function Portfolio() {
     ]);
 
     return(
-        <div className="container">
+        <div className="container custom-padding">
             <div className="columns custom-padding">
                 {projects.map((project) => {
                     return(
