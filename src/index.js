@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import './spectre-exp.css';
 import './spectre-icons.css';
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/my-portfolio" element={<App />}>
         <Route index element={<About />} />
-        <Route exact path="/my-portfolio/about" element={<About />} />
+        <Route path="/my-portfolio/about" element={<About />} />
         <Route path="/my-portfolio/portfolio" element={<Portfolio />} />
         <Route path="/my-portfolio/contact" element={<Contact />} />
         <Route path="/my-portfolio/resume" element={<Resume />} />
