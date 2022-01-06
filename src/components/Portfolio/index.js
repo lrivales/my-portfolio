@@ -12,7 +12,7 @@ function Portfolio() {
         {
             img: 'contactless-menu.png',
             name: 'contactless menu',
-            description: 'this is an app that can be used for dine-in contactless ordering meant for restaurant use.',
+            description: 'this is an app that can be used for dine-in contactless ordering (meant for restaurant use only, not online).',
             url: 'https://polar-earth-23819.herokuapp.com/',
             github: 'https://github.com/lrivales/contactless-menu'
         },
