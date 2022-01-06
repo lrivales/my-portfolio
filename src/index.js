@@ -16,12 +16,12 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route path="/my-portfolio" element={<App />}>
         <Route index element={<About />} />
-        <Route path="about" element={<About />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="resume" element={<Resume />} />
+        <Route exact path="/my-portfolio/about" element={<About />} />
+        <Route path="/my-portfolio/portfolio" element={<Portfolio />} />
+        <Route path="/my-portfolio/contact" element={<Contact />} />
+        <Route path="/my-portfolio/resume" element={<Resume />} />
       </Route>
     </Routes>
     </BrowserRouter>
