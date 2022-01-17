@@ -4,7 +4,7 @@ import resume from "./resume.docx"
 function Resume() {
     const [frontEndSkills] = useState(['html', 'css', 'javascript', 'responsive design', 'react', 'bootstrap'])
 
-    const [backEndSkills] = useState(['apis', 'node', 'express', 'mysql | sequelize', 'mongodb | mongoose', 'rest'])
+    const [backEndSkills] = useState(['apis', 'node', 'express', 'mysql | sequelize', 'mongodb | mongoose', 'graphql', 'rest'])
 
     return(
         <div id="resume" className="container">
