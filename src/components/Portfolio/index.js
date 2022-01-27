@@ -17,33 +17,40 @@ function Portfolio() {
             github: 'https://github.com/lrivales/contactless-menu'
         },
         {
-            img: 'note-taker.png',
-            name: 'note taker',
-            description: 'this is a very simple note taking application. it can be extended for more functionality like authentication, etc.',
-            url: 'https://murmuring-sea-88897.herokuapp.com',
-            github: 'https://github.com/lrivales/note-taker'
+            img: "home-inventory.png",
+            name: "home inventory",
+            description: "This is a basic home inventory app to keep track of all the valuables in your home in case the unthinkable happens.",
+            url:"",
+            github:"https://github.com/lrivales/my-home-inventory"
         },
-        {
-            img: 'budget-tracker.png',
-            name: 'budget tracker',
-            description: 'this is an app for a basic budget tracking application with a line graph for visualizing trends.',
-            url: 'https://whispering-ocean-33517.herokuapp.com',
-            github: 'https://github.com/lrivales/budget-tracker'
-        },
-        {
-            img: 'food-festival.png',
-            name: 'food festival',
-            description: 'this is an app for a food festival (or any other type of festival) with an events schedule and ticket purchases.',
-            url: 'https://lrivales.github.io/food-festival/',
-            github: 'https://github.com/lrivales/food-festival'
-        },
-        {
-            img: 'zookeepr.png',
-            name: 'zookeepr',
-            description: 'this is an app for managing zoo animals and their keepers (or anything else that needs managing).',
-            url: 'https://infinite-headland-85038.herokuapp.com',
-            github: 'https://github.com/lrivales/zookeepr'
-        }
+        // {
+        //     img: 'note-taker.png',
+        //     name: 'note taker',
+        //     description: 'this is a very simple note taking application. it can be extended for more functionality like authentication, etc.',
+        //     url: 'https://murmuring-sea-88897.herokuapp.com',
+        //     github: 'https://github.com/lrivales/note-taker'
+        // },
+        // {
+        //     img: 'budget-tracker.png',
+        //     name: 'budget tracker',
+        //     description: 'this is an app for a basic budget tracking application with a line graph for visualizing trends.',
+        //     url: 'https://whispering-ocean-33517.herokuapp.com',
+        //     github: 'https://github.com/lrivales/budget-tracker'
+        // },
+        // {
+        //     img: 'food-festival.png',
+        //     name: 'food festival',
+        //     description: 'this is an app for a food festival (or any other type of festival) with an events schedule and ticket purchases.',
+        //     url: 'https://lrivales.github.io/food-festival/',
+        //     github: 'https://github.com/lrivales/food-festival'
+        // },
+        // {
+        //     img: 'zookeepr.png',
+        //     name: 'zookeepr',
+        //     description: 'this is an app for managing zoo animals and their keepers (or anything else that needs managing).',
+        //     url: 'https://infinite-headland-85038.herokuapp.com',
+        //     github: 'https://github.com/lrivales/zookeepr'
+        // }
     ]);
 
     return(
