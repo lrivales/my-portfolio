@@ -19,7 +19,7 @@ function Portfolio() {
         {
             img: "home-inventory.png",
             name: "home inventory",
-            description: "This is a basic home inventory app to keep track of all the valuables in your home in case the unthinkable happens.",
+            description: "this is an app for keeping track of your valuables.",
             url:"",
             github:"https://github.com/lrivales/my-home-inventory"
         },
