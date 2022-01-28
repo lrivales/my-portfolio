@@ -20,7 +20,7 @@ function Portfolio() {
             img: "home-inventory.png",
             name: "home inventory",
             description: "this is an app for keeping track of your valuables.",
-            url:"",
+            url:"https://tranquil-springs-40871.herokuapp.com/home-inventory",
             github:"https://github.com/lrivales/my-home-inventory"
         },
         // {
